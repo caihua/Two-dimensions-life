@@ -14,6 +14,7 @@
 		DEAB8E391B2E771100D563B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8E381B2E771100D563B8 /* Images.xcassets */; };
 		DEAB8E3C1B2E771100D563B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8E3A1B2E771100D563B8 /* LaunchScreen.xib */; };
 		DEAB8E481B2E771100D563B8 /* Two_dimensions_lifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E471B2E771100D563B8 /* Two_dimensions_lifeTests.swift */; };
+		DEAB8E541B2E781300D563B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E531B2E781300D563B8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		DEAB8E411B2E771100D563B8 /* Two-dimensions-lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two-dimensions-lifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB8E461B2E771100D563B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEAB8E471B2E771100D563B8 /* Two_dimensions_lifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_dimensions_lifeTests.swift; sourceTree = "<group>"; };
+		DEAB8E531B2E781300D563B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		DEAB8E2B1B2E771100D563B8 /* Two-dimensions-life */ = {
 			isa = PBXGroup;
 			children = (
+				DEAB8E531B2E781300D563B8 /* README.md */,
 				DEAB8E2E1B2E771100D563B8 /* AppDelegate.swift */,
 				DEAB8E331B2E771100D563B8 /* ViewController.swift */,
 				DEAB8E351B2E771100D563B8 /* Main.storyboard */,
@@ -217,6 +220,7 @@
 			files = (
 				DEAB8E341B2E771100D563B8 /* ViewController.swift in Sources */,
 				DEAB8E321B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld in Sources */,
+				DEAB8E541B2E781300D563B8 /* README.md in Sources */,
 				DEAB8E2F1B2E771100D563B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
