@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAB8E2F1B2E771100D563B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E2E1B2E771100D563B8 /* AppDelegate.swift */; };
+		DEAB8E321B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E301B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld */; };
+		DEAB8E341B2E771100D563B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E331B2E771100D563B8 /* ViewController.swift */; };
+		DEAB8E371B2E771100D563B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8E351B2E771100D563B8 /* Main.storyboard */; };
+		DEAB8E391B2E771100D563B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8E381B2E771100D563B8 /* Images.xcassets */; };
+		DEAB8E3C1B2E771100D563B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB8E3A1B2E771100D563B8 /* LaunchScreen.xib */; };
+		DEAB8E481B2E771100D563B8 /* Two_dimensions_lifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAB8E471B2E771100D563B8 /* Two_dimensions_lifeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAB8E421B2E771100D563B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAB8E211B2E771100D563B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAB8E281B2E771100D563B8;
+			remoteInfo = "Two-dimensions-life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEAB8E291B2E771100D563B8 /* Two-dimensions-life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Two-dimensions-life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8E2D1B2E771100D563B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAB8E2E1B2E771100D563B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEAB8E311B2E771100D563B8 /* Two_dimensions_life.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Two_dimensions_life.xcdatamodel; sourceTree = "<group>"; };
+		DEAB8E331B2E771100D563B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEAB8E361B2E771100D563B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEAB8E381B2E771100D563B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEAB8E3B1B2E771100D563B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEAB8E411B2E771100D563B8 /* Two-dimensions-lifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Two-dimensions-lifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB8E461B2E771100D563B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAB8E471B2E771100D563B8 /* Two_dimensions_lifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two_dimensions_lifeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAB8E261B2E771100D563B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8E3E1B2E771100D563B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAB8E201B2E771100D563B8 = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E2B1B2E771100D563B8 /* Two-dimensions-life */,
+				DEAB8E441B2E771100D563B8 /* Two-dimensions-lifeTests */,
+				DEAB8E2A1B2E771100D563B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAB8E2A1B2E771100D563B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E291B2E771100D563B8 /* Two-dimensions-life.app */,
+				DEAB8E411B2E771100D563B8 /* Two-dimensions-lifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAB8E2B1B2E771100D563B8 /* Two-dimensions-life */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E2E1B2E771100D563B8 /* AppDelegate.swift */,
+				DEAB8E331B2E771100D563B8 /* ViewController.swift */,
+				DEAB8E351B2E771100D563B8 /* Main.storyboard */,
+				DEAB8E381B2E771100D563B8 /* Images.xcassets */,
+				DEAB8E3A1B2E771100D563B8 /* LaunchScreen.xib */,
+				DEAB8E301B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld */,
+				DEAB8E2C1B2E771100D563B8 /* Supporting Files */,
+			);
+			path = "Two-dimensions-life";
+			sourceTree = "<group>";
+		};
+		DEAB8E2C1B2E771100D563B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E2D1B2E771100D563B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEAB8E441B2E771100D563B8 /* Two-dimensions-lifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E471B2E771100D563B8 /* Two_dimensions_lifeTests.swift */,
+				DEAB8E451B2E771100D563B8 /* Supporting Files */,
+			);
+			path = "Two-dimensions-lifeTests";
+			sourceTree = "<group>";
+		};
+		DEAB8E451B2E771100D563B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB8E461B2E771100D563B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAB8E281B2E771100D563B8 /* Two-dimensions-life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8E4B1B2E771100D563B8 /* Build configuration list for PBXNativeTarget "Two-dimensions-life" */;
+			buildPhases = (
+				DEAB8E251B2E771100D563B8 /* Sources */,
+				DEAB8E261B2E771100D563B8 /* Frameworks */,
+				DEAB8E271B2E771100D563B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Two-dimensions-life";
+			productName = "Two-dimensions-life";
+			productReference = DEAB8E291B2E771100D563B8 /* Two-dimensions-life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEAB8E401B2E771100D563B8 /* Two-dimensions-lifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB8E4E1B2E771100D563B8 /* Build configuration list for PBXNativeTarget "Two-dimensions-lifeTests" */;
+			buildPhases = (
+				DEAB8E3D1B2E771100D563B8 /* Sources */,
+				DEAB8E3E1B2E771100D563B8 /* Frameworks */,
+				DEAB8E3F1B2E771100D563B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAB8E431B2E771100D563B8 /* PBXTargetDependency */,
+			);
+			name = "Two-dimensions-lifeTests";
+			productName = "Two-dimensions-lifeTests";
+			productReference = DEAB8E411B2E771100D563B8 /* Two-dimensions-lifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAB8E211B2E771100D563B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = llb;
+				TargetAttributes = {
+					DEAB8E281B2E771100D563B8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					DEAB8E401B2E771100D563B8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = DEAB8E281B2E771100D563B8;
+					};
+				};
+			};
+			buildConfigurationList = DEAB8E241B2E771100D563B8 /* Build configuration list for PBXProject "Two-dimensions-life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEAB8E201B2E771100D563B8;
+			productRefGroup = DEAB8E2A1B2E771100D563B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAB8E281B2E771100D563B8 /* Two-dimensions-life */,
+				DEAB8E401B2E771100D563B8 /* Two-dimensions-lifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAB8E271B2E771100D563B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8E371B2E771100D563B8 /* Main.storyboard in Resources */,
+				DEAB8E3C1B2E771100D563B8 /* LaunchScreen.xib in Resources */,
+				DEAB8E391B2E771100D563B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8E3F1B2E771100D563B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAB8E251B2E771100D563B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8E341B2E771100D563B8 /* ViewController.swift in Sources */,
+				DEAB8E321B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld in Sources */,
+				DEAB8E2F1B2E771100D563B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAB8E3D1B2E771100D563B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB8E481B2E771100D563B8 /* Two_dimensions_lifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAB8E431B2E771100D563B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAB8E281B2E771100D563B8 /* Two-dimensions-life */;
+			targetProxy = DEAB8E421B2E771100D563B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEAB8E351B2E771100D563B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB8E361B2E771100D563B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEAB8E3A1B2E771100D563B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB8E3B1B2E771100D563B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEAB8E491B2E771100D563B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEAB8E4A1B2E771100D563B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAB8E4C1B2E771100D563B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Two-dimensions-life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEAB8E4D1B2E771100D563B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Two-dimensions-life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEAB8E4F1B2E771100D563B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Two-dimensions-lifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two-dimensions-life.app/Two-dimensions-life";
+			};
+			name = Debug;
+		};
+		DEAB8E501B2E771100D563B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Two-dimensions-lifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Two-dimensions-life.app/Two-dimensions-life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAB8E241B2E771100D563B8 /* Build configuration list for PBXProject "Two-dimensions-life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8E491B2E771100D563B8 /* Debug */,
+				DEAB8E4A1B2E771100D563B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB8E4B1B2E771100D563B8 /* Build configuration list for PBXNativeTarget "Two-dimensions-life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8E4C1B2E771100D563B8 /* Debug */,
+				DEAB8E4D1B2E771100D563B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEAB8E4E1B2E771100D563B8 /* Build configuration list for PBXNativeTarget "Two-dimensions-lifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB8E4F1B2E771100D563B8 /* Debug */,
+				DEAB8E501B2E771100D563B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEAB8E301B2E771100D563B8 /* Two_dimensions_life.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEAB8E311B2E771100D563B8 /* Two_dimensions_life.xcdatamodel */,
+			);
+			currentVersion = DEAB8E311B2E771100D563B8 /* Two_dimensions_life.xcdatamodel */;
+			path = Two_dimensions_life.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEAB8E211B2E771100D563B8 /* Project object */;
+}
